@@ -1,0 +1,16 @@
+{
+	"color_scheme": "Packages/Phoneix Theme/Color Scheme/Tomorrow-Night.tmTheme",
+	"font_size": 13,
+	//"font_face": "Ubuntu Mono",
+	//"font_face": "Anonymous Pro",
+	//"font_face": "Droid Sans Mono",
+	 "font_face": "Andale Mono",
+	// "font_face": "DejaVu Sans Mono",
+	
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"soda_classic_tabs": true,
+	"theme": "Soda Dark.sublime-theme"
+}
