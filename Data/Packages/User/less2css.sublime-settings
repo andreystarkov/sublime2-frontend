@@ -1,0 +1,8 @@
+{
+  "autoCompile": false,
+  "lessBaseDir": "./",
+  "main_file": "main.less",
+  "minify": true,
+  "outputDir": "auto",
+  "outputFile": ""
+}

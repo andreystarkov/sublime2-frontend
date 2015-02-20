@@ -1,0 +1,14 @@
+{
+
+    "linters": {
+      "csslint": {
+        "@disable": false,
+        "args": [],
+        "errors": "",
+        "excludes": [],
+        "ignore": "unique-headings",
+        "warnings": ""
+        }
+    },
+    "sublimelinter": "save-only"
+}

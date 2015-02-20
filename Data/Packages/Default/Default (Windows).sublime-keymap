@@ -9,7 +9,7 @@
 	{ "keys": ["ctrl+shift+s"], "command": "prompt_save_as" },
 	{ "keys": ["ctrl+f4"], "command": "close_file" },
 	{ "keys": ["ctrl+w"], "command": "close" },
-
+	{ "keys": ["f8"], "command": "permute_lines", "args": {"operation": "unique"} },
 	{ "keys": ["ctrl+k", "ctrl+b"], "command": "toggle_side_bar" },
 	{ "keys": ["f11"], "command": "toggle_full_screen" },
 	{ "keys": ["shift+f11"], "command": "toggle_distraction_free" },

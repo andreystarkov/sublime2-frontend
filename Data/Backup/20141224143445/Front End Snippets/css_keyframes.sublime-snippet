@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+@-webkit-keyframes ${1:ANIMATION_NAME} {
+  0%   { ${2} }
+  100% { ${3} }
+}
+@-moz-keyframes ${1} {
+  0%   { ${2} }
+  100% { ${3} }
+}
+@-o-keyframes ${1} {
+  0%   { ${2} }
+  100% { ${3} }
+}
+@keyframes ${1} {
+  0%   { ${2} }
+  100% { ${3} }
+}
+]]></content>
+	<tabTrigger>_keyframes</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger 
+	<scope>source.html</scope>
+    -->
+</snippet>

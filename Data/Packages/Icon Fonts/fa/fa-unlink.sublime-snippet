@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+<${1:i} class="fa fa-unlink$2">$3</${1:i}>
+]]></content>
+  <tabTrigger>fa-unlink</tabTrigger>
+  <scope>text.html -text.html.markdown</scope>
+</snippet>

@@ -1,16 +1,40 @@
 {
-	"color_scheme": "Packages/Phoneix Theme/Color Scheme/Tomorrow-Night.tmTheme",
-	"font_size": 13,
-	//"font_face": "Ubuntu Mono",
-	//"font_face": "Anonymous Pro",
-	//"font_face": "Droid Sans Mono",
-	 "font_face": "Andale Mono",
-	// "font_face": "DejaVu Sans Mono",
-	
+	"auto_complete": true,
+	"caret_style": "phase",
+	"close_windows_when_empty": false,
+	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
+	"draw_white_space": "all",
+	"find_selected_text": true,
+	"fold_buttons": false,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"_build",
+		"dist",
+		"build",
+		"site"
+	],
+	"font_face": "Ubuntu Mono",
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
+	"font_size": 12.0,
+	"highlight_line": true,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-	"soda_classic_tabs": true,
-	"theme": "Soda Dark.sublime-theme"
+	"rulers":
+	[
+		72,
+		79
+	],
+	"tab_size": 4,
+	"theme": "Afterglow.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
 }

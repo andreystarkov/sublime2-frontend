@@ -1,0 +1,36 @@
+# Apple Pips for TextMate & Sublime Text [![Build Status](https://secure.travis-ci.org/idleberg/ApplePips.tmTheme.png)](http://travis-ci.org/idleberg/ApplePips.tmTheme)
+
+A color scheme inspired by the GiveUpArt's artwork for the [Apple Pips](http://www.discogs.com/label/Apple+Pips) record label.
+
+![Animated Screenshot](https://raw.github.com/idleberg/ApplePips.tmTheme/master/preview/screenshot.gif)
+
+## Installation
+
+### TextMate
+
+1. Download a `.tmTheme` file of choice
+2. Copy the file to `~/Library/Application Support/TextMate/Themes`
+
+### Sublime Text
+
+#### Package Control
+
+1. Make sure you already have [Package Control](http://wbond.net/sublime_packages/package_control/) installed
+2. Choose *Install Package* from the Command Palette (`Ctrl+Shift+P` on Windows/Linux, `⇧⌘P` on OS X)
+3. Select *Apple Pips Color Scheme* and press `Enter`
+
+With [auto_upgrade](http://wbond.net/sublime_packages/package_control/settings/) enabled, Package Control will keep all installed packages up-to-date!
+
+#### Manual Installation
+
+1. Download a `.tmTheme` file of choice
+2. *Browse Packages* from the Command Palette (`Ctrl+Shift+P` on Windows/Linux, `⇧⌘P` on OS X)
+3. Copy the `.tmTheme` file to `Packages`
+
+## License
+
+This work by Jan T. Sott is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Unported License](http://creativecommons.org/licenses/by-sa/4.0/deed.en_US).
+
+## Donate
+
+You are welcome support this project using [Flattr](https://flattr.com/submit/auto?user_id=idleberg&url=https://github.com/idleberg/ApplePips.tmTheme) or Bitcoin `17CXJuPsmhuTzFV2k4RKYwpEHVjskJktRd`

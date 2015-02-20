@@ -1,1 +1,1 @@
-{"url": "https://github.com/benweier/Themr", "version": "2014.09.22.12.14.45", "description": "A UI theme selector for Sublime Text."}
+{"description": "A UI theme selector for Sublime Text.", "url": "https://github.com/benweier/Themr", "platforms": ["*"], "version": "2014.12.26.02.02.04", "sublime_text": "*", "dependencies": []}

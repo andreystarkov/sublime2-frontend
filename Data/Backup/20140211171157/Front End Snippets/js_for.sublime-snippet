@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+var len = ${1:5};
+for(var ${2:ii} = len - 1; ${2} >= 0; ${2} - 1){
+  ${6:/* code ... */}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>_for</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger 
+	<scope>source.html</scope>
+    -->
+</snippet>

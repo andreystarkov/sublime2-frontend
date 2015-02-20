@@ -1,15 +1,14 @@
 ## About
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/benweier/Themr?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Themr allows you to quickly change your UI theme using the command palette or keyboard shortcuts. With Themr, you get commands to easily cycle forward, backward and randomly through your available themes.
 
 ## Features
 * Full compatibility with Sublime Text 2 and 3.
 * Allows themes to be favorited for even faster access.
-* Automatically loads all available `.sublime-theme` files, including those found inside `.sublime-package` files. No need to restart Sublime Text or initiate a reload!
-* Registers a callback when the `theme` setting is changed to protect against saving an invalid filename (e.g. when manually editing the `Preferences.sublime-settings` file).
-* Configure all customizable theme settings without checking the theme readme or manually scanning the theme file with a real-time preview via quick panel.
-
-## Author's Note
-When changing to or from some themes, Sublime Text may need be restarted to fully clear the old theme settings and apply the new theme settings. Switching themes within the same family (e.g. Soda Light <-> Soda Dark) usually doesn't cause any issues.
+* Automatically loads all available `.sublime-theme` files, including those found inside `.sublime-package` files.
+* Registers a callback for when settings are changed to protect against saving an invalid theme name (e.g. when manually editing the `Preferences.sublime-settings` file).
+* Configure all customizable theme settings without checking the theme readme or manually scanning the theme file. [ST3 ONLY]
 
 ## Installation
 Install Themr through [Package Control](https://sublime.wbond.net/) or download and extract it into your Sublime Text `Packages` folder.
@@ -35,6 +34,8 @@ Toggle Theme Settings by [Eibbor](https://github.com/eibbors)
 
 * Default binding: <kbd>Ctrl+F10</kbd> (Windows/Linux) <kbd>Cmd+F10</kbd> (OSX)
 
+**Themr: Toggle Theme Settings** displays a list of toggleable settings supported by your current theme.
+
 ### Favorites
 
 **Themr: Add current theme to favorites** and **Themr: Remove current theme from favorites** add and remove the currently selected theme to your favorites list.
@@ -57,6 +58,12 @@ Toggle Theme Settings by [Eibbor](https://github.com/eibbors)
 
 * Default binding: <kbd>Ctrl+Shift+F10</kbd> (Windows/Linux) <kbd>Cmd+Shift+F10</kbd> (OSX)
 
-### Other
+## User Settings
+These settings are available to control some of Themr's behaviour. Add them to `Preferences.sublime-settings` if you wish to override the default value.
 
-**Themr: Toggle Theme Settings** displays a list of settings supported by your current theme to preview changes in real time
+`themr_watch_settings`: Boolean true|false. Defaults to false.
+
+Themr is able to watch for changes to `Preferences.sublime-settings` and reset the `theme` setting if the theme file is invalid or cannot be found (e.g. when Package Control upgrades a Theme package it adds the plugin to the `ignored_packages` setting). Since Package Control 3.0, this feature is now handled by Package Control so this setting is intended for legacy Package Control 2.0 users.
+
+### Other Notes
+When changing between themes, Sublime Text may need be restarted to fully clear the old theme settings and apply the new theme settings. Switching themes within the same family (e.g. Soda Light <-> Soda Dark) usually doesn't cause any issues.

@@ -1,1 +1,1 @@
-{"url": "https://github.com/MattDMo/PythonImproved", "version": "1.3.1", "description": "A better Python .tmLanguage language definition for Sublime Text and TextMate. Check out the Neon Color Scheme for syntax highlighting."}
+{"description": "A better Python .tmLanguage language definition for Sublime Text. Includes support for both Python 2 and Python 3 syntax. Check out the Neon Color Scheme for syntax highlighting.", "url": "https://github.com/MattDMo/PythonImproved", "platforms": ["*"], "version": "1.4.2", "sublime_text": "*", "dependencies": []}
